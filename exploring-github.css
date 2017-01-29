@@ -1,12 +1,22 @@
-h1 {
+.header{
+	width: 100%;
+	margin: 0px auto;
+	position: fixed;
+	top: 0px;
 	text-align: center;
 	color: navy;
+	background-color: lightblue;
 }
 body {
+	margin: 0px;
 	background-color: linen;
 }
-.main {
-	margin-left: 25%;
-	margin-right: 25%;
+.content {
+	width: 960px;
+	height: 2000px;
+	margin: 90px auto;
+	padding: 2.5%;
 	background-color: azure;
+	font-size: 1em;
 }
+
